@@ -22,7 +22,7 @@
     "lib"
   ],
   "main": "lib/index.js",
-  "bin": "lib/index.js",
+  "bin": "lib/cli.js",
   "types": "lib/index.d.ts",
   "scripts": {
     "build": "tsc -p tsconfig.build.json",
