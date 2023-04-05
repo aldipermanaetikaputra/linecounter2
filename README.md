@@ -137,9 +137,9 @@ Output:
 This library is well tested. You can test the code as follows:
 
 ```bash
-# use npm
+# using npm
 npm test
-# use yarn
+# using yarn
 yarn test
 ```
 
