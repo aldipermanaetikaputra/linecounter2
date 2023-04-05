@@ -1,6 +1,6 @@
 # linecounter2
 
-⚡ Fastest and memory-efficient async file line counter with customizable buffer size and separator on Node.js.
+⚡ Fastest and memory-efficient async file line counter with customizable buffer size and separator.
 
 Allow you to count the lines of a huge file by reading chunk by chunk without buffering the whole file in memory. Has the ability to customize a line separator (multiple characters allowed), and skip blank lines.
 
