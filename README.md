@@ -77,7 +77,7 @@ console.log('total lines [skip ending line break] =', total3);
 9999
 
 ```
-_Note: there is a blank line at the end of the above file (after the `9999` line)._
+_**NOTE**: there is a blank line at the end of the above file (after the `9999` line)._
 
 
 Output:
