@@ -48,7 +48,7 @@ It returns the total lines in the file. The options you can pass are:
 | bufferSize          | `number`  | `65536` | Chunk/buffer size in bytes. Default: `64 KB`                                                                                            |
 | lineSeparator       | `string`  | none    | Separator to separate between lines (multiple characters allowed). Will be automatically determined between `'\r\n'`, `'\n'`, or `'\r'` |
 | skipBlank           | `boolean` | `false` | Used to skip blank lines (including whitespace lines)                                                                                   |
-| skipEndingLineBreak | `boolean` | `false` | Used to skip the empty line at the end of the file                                                                                      |
+| skipEndingLineBreak | `boolean` | `false` | Used to skip the last blank line (if any) of the file. See the example below                                                            |
 
 Example:
 
