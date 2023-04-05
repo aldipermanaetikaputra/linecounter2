@@ -12,9 +12,9 @@ Allow you to count the lines of a huge file by reading chunk by chunk without bu
 ## Install
 
 ```bash
-# use npm
+# using npm
 npm install linecounter2
-# use yarn
+# using yarn
 yarn add linecounter2
 ```
 
@@ -84,6 +84,50 @@ Output:
 total lines = 10
 total lines [skip blank] = 8
 total lines [skip ending line break] = 9
+```
+
+## CLI
+
+This library supports CLI in an easy way.
+
+Example:
+
+```bash
+# using npm
+npx linecounter2 ./file.txt
+# using yarn
+yarn linecounter2 ./file.txt
+```
+
+`./file.txt`
+
+```txt
+1111
+2222
+3333
+
+5555
+```
+
+Output:
+
+```bash
+5
+```
+
+You can pass additional options as arguments as follows:
+
+```bash
+# using npm
+npx linecounter2 ./file.txt --skipBlank --bufferSize=1024 --lineSeparator=\\n
+# using yarn
+yarn linecounter2 ./file.txt --skipBlank --bufferSize=1024 --lineSeparator=\\n
+```
+
+Output:
+
+```bash
+4
 ```
 
 ## Testing
