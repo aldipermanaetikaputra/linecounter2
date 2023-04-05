@@ -148,7 +148,7 @@ yarn test
 ## Related
 
 - [chunkreader2](https://github.com/aldipermanaetikaputra/chunkreader2) - Asynchronous, buffered, chunk-by-chunk file reader with customizable buffer size.
-- [linereader2](https://github.com/aldipermanaetikaputra/linereader2) - Asynchronous, buffered, chunk-by-chunk file reader with customizable buffer size. **(This library uses this package internally)**
+- [linereader2](https://github.com/aldipermanaetikaputra/linereader2) - Asynchronous, buffered, line-by-line file reader with customizable buffer size and separator. **(This library uses this package internally)**
 
 ## Contribute
 
