@@ -1,6 +1,6 @@
 {
   "name": "linecounter2",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "⚡ Fastest and memory-efficient async file line counter with customizable buffer size and separator on Node.js.",
   "url": "https://github.com/aldipermanaetikaputra/linecounter2",
   "keywords": [
