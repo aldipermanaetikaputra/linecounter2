@@ -76,7 +76,6 @@ console.log('total lines [skip ending line break] =', total3);
 8888
 9999
 
-
 ```
 
 Output:
