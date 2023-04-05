@@ -53,13 +53,15 @@ It returns the total lines in the file. The options you can pass are:
 Example:
 
 ```js
-const total1 = await LineCounter.count({ filePath: './file.txt' });
+const filePath = './file.txt';
+
+const total1 = await LineCounter.count({ filePath });
 console.log('total lines =', total1);
 
-const total2 = await LineCounter.count({ filePath: './file.txt', skipBlank: true });
+const total2 = await LineCounter.count({ filePath, skipBlank: true });
 console.log('total lines [skip blank] =', total2);
 
-const total3 = await LineCounter.count({ filePath: './file.txt', skipEndingLineBreak: true });
+const total3 = await LineCounter.count({ filePath, skipEndingLineBreak: true });
 console.log('total lines [skip ending line break] =', total3);
 ```
 
